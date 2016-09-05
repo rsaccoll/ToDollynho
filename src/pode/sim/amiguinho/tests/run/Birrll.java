@@ -28,7 +28,7 @@ public class Birrll {
 	@Before
     public void setUp() throws IOException {
 
-        File appDir = new File( "/Users/ramses/Documents/Tretas/Dollynho_Stuff");
+        File appDir = new File( "<Coloca aqui o path do app amiguinhos>");
         File app = new File(appDir, "dollynhoapp-debug.apk");
 
         DesiredCapabilities capacidade = new DesiredCapabilities();

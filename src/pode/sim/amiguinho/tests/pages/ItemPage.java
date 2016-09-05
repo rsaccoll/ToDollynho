@@ -42,7 +42,7 @@ public class ItemPage extends AppiumCommons {
 	}
 	
 	public ToDoPage validaSapohhaTitulo() {
-		assertEquals("Yeap", itemObjects.TITULO_DO_TODO_MAROTO.getText());
+		assertEquals("Yeap", itemObjects.TITULO_DO_TODO_MAROTO.getText()); //Sacaram a trollada aqui?
 		
 		return new ToDoPage(driver);
 	}
